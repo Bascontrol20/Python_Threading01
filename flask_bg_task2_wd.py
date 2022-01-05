@@ -21,19 +21,19 @@ def background_task():
         batch_read_val_bit = slmp.batchread_bitunits(headdevice="M8000", readsize=25)
 
         if batch_read_val_bit[0] == 1:
-            print("M8000 On")
+            print("M8000 On bit")
 
         if batch_read_val_bit[1] == 1:
-            print("M8001 On")
+            print("M8001 On bit")
 
         if batch_read_val_bit[2] == 1:
-            print("M8002 On")
+            print("M8002 On bit")
         
         if batch_read_val_bit[3] == 1:
-            print("M8003 On")
+            print("M8003 On bit")
 
         if batch_read_val_bit[4] == 1:
-            print("M8004 On")
+            print("M8004 On bit")
 
         sleep(1)
 
